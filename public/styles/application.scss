@@ -1,0 +1,19 @@
+
+/* imports */
+@import 'colors';
+@import 'https://fonts.googleapis.com/css?family=Secular+One';
+
+#name {
+  color: $grey-700;
+  font: {
+    size: 48px;
+    family: 'Secular One', sans-serif;
+  }
+  letter-spacing: 0.1em;
+}
+
+l {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
