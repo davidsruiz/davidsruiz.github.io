@@ -1,18 +1,30 @@
-$('#name').typeIt({
-     speed: 50,
-     autoStart: false
-})
-.tiType('Wll')
-.tiPause(500)
-.tiDelete(2)
-.tiType('ell, ')
-.tiPause(1000)
-.tiType('I guess I\'m typing..')
-.tiBreak() .tiPause(750)
-.tiType(' but I don\'t really know what to say')
-.tiSettings({speed: 700})
-.tiType('...')
-.tiPause(750)
-.tiSettings({speed: 50})
-.tiDelete()
-.tiType('IS THAT SO <strong>WRONG??</strong>');
+
+
+$(()=>{
+
+  // nonsense
+  HOME.name.write();
+
+
+
+});
+
+var HOME = HOME || {};
+
+$.extend(true, HOME, {
+  name: {
+      write: function() {
+      $('#name').typeIt({
+           speed: 500,
+           autoStart: false
+      })
+      .tiType('dr.')
+      .tiPause(2000)
+      .tiDelete(2)
+      .tiSettings({speed: 100})
+      .tiType('avid ')
+      .tiPause(500)
+      .tiType('ruiz.');
+    }
+  }
+});
