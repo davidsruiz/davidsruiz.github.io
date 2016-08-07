@@ -1,8 +1,10 @@
 
 
 /* normalization */
-// html, body { width: 100%; height: 100%; }
-body * { font-size : inherit; letter-spacing: inherit } div { display: inline-block }
+html { width: 100%; height: 200%; font-size: 0 }
+body { width: 100%; height: 100%; margin: 0; overflow-y: scroll; }
+body * { font-size : inherit; letter-spacing: inherit }
+div { display: inline-block }
 
 
 /* imports */
@@ -16,7 +18,7 @@ body * { font-size : inherit; letter-spacing: inherit } div { display: inline-bl
   transform: translate(-50%, -50%);
 }
 
-body > .content { width: 100%; height: 100%; }
+body > .content { width: 100%; height: 100%; font-size: 0}
 
 .l {
   width: 100%;
