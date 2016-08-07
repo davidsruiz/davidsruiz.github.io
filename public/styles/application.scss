@@ -50,24 +50,31 @@ div#words {
     family: 'Crete Round', sans-serif;
   }
 
-  .a { color: #ddd }
-  .b { color: #333 }
+  .a { color: #ddd; text-align: right; padding-right: 12px;}
+  .b { color: #333; text-align: left; padding-left: 12px;}
 
   .a, .b {
+    box-sizing: border-box;
     display: table;
+
+    @media screen and (max-width: 768px) {
+      text-align: center;
+    }
   }
 
   .a > *, .b > * {
-    display: table-cell;
+    display: table-cell; vertical-align: center;
   }
+
+  .a > * {
+    height: 308px;
+  }
+
 }
 
 #name {
-  // @include centerer;
-
-  padding: 12px 32px;
-  // background-color: #333;
-  // border-radius: 48px;
+  height: 290px;
+  @media screen and (max-width: 768px) {height: auto;}
 }
 
 #pages > li {
