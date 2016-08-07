@@ -103,7 +103,7 @@ $.extend(true, HOME, {
         renderer.render(scene, camera);
       }
 
-      $(window).resize(updateSize)
+      $(window).resize(()=>{updateSize();resetBlendMode()})
 
       function updateSize() {
         winWidth = $(window).width(); winHeight = $(window).height();
@@ -122,6 +122,10 @@ $.extend(true, HOME, {
       function updateCameraPosition() {
         var percent = document.scrollingElement.scrollTop/document.scrollingElement.scrollHeight;
         camera.position.y = 480 - (480 * percent)
+      }
+
+      function resetBlendMode() { // weird safari orientation change blend messup glitch thing
+        ($("#blend").css("mix-blend-mode") == "difference") ? $("#blend").css("mix-blend-mode", "exclusion") : $("#blend").css("mix-blend-mode", "difference") ;
       }
 
     }
