@@ -31,7 +31,7 @@ $.extend(true, HOME, {
         camera = new THREE.PerspectiveCamera(75, winWidth/winHeight, 1, 1000);
         camera.position.z = 500;
 
-        particleCount = 15000;
+        particleCount = 8000;
         particles = new THREE.Geometry();
 
         for (var i = 0; i < particleCount; i++) {
@@ -108,13 +108,22 @@ $.extend(true, HOME, {
       function updateSize() {
         winWidth = $(window).width(); winHeight = $(window).height();
 
-        camera = new THREE.PerspectiveCamera(75, winWidth/winHeight, 1, 1000);
-        camera.position.z = 500;
+        camera.aspect = winWidth/winHeight;
+        camera.updateProjectionMatrix();
+        // camera = new THREE.PerspectiveCamera(75, winWidth/winHeight, 1, 1000);
+        // camera.position.z = 500;
 
         renderer.setSize(winWidth, winHeight);
       }
 
-      $(document).mousemove((e) => [camera.position.x, camera.position.y] = [e.clientX/(winWidth/100), e.clientY/(winHeight/100)] );
+      updateCameraPosition();
+      $(document).scroll(updateCameraPosition); //[camera.position.x, camera.position.y] = [e.clientX/(winWidth/100), e.clientY/(winHeight/100)] );
+
+      function updateCameraPosition() {
+        var percent = document.scrollingElement.scrollTop/document.scrollingElement.scrollHeight;
+        camera.position.y = 480 - (480 * percent)
+      }
+
     }
   }
 });
