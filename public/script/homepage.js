@@ -3,8 +3,6 @@
 $(function(){
 
   HOME.canvas.init();
-  $("#words>.a").click(function(){HOME.randomizeBackground()})
-  $("#name").click(function(e){e.stopPropagation(); HOME.setBackgroundTo("#333")})
 
 });
 
