@@ -1,6 +1,6 @@
 
 
-$(()=>{
+$(function(){
 
   // nonsense
   HOME.canvas.init();
@@ -103,7 +103,7 @@ $.extend(true, HOME, {
         renderer.render(scene, camera);
       }
 
-      $(window).resize(()=>{updateSize();resetBlendMode()})
+      $(window).resize(function(){updateSize();resetBlendMode()})
 
       function updateSize() {
         winWidth = $(window).width(); winHeight = $(window).height();
