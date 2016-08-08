@@ -2,8 +2,9 @@
 
 $(function(){
 
-  // nonsense
   HOME.canvas.init();
+  $("#words>.a").click(function(){HOME.randomizeBackground()})
+  $("#name").click(function(e){e.stopPropagation(); HOME.setBackgroundTo("#333")})
 
 });
 
@@ -129,5 +130,11 @@ $.extend(true, HOME, {
       }
 
     }
+  },
+  randomizeBackground() {
+    HOME.setBackgroundTo("hsl(" + Math.random()*360 + ", 100%, 67%)")
+  },
+  setBackgroundTo(color) {
+    $('#blend').css("background-color", color)
   }
 });
