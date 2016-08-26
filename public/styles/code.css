@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+}
+
+center {
+  display: inline-block;
+  max-width: 1080px;
+  width: calc(100% - 64px);
+  text-align: left;
+}
+
+h1 img { height: 32px; margin: 0px 12px; }
+
+.banner {
+  display: inline-block;
+  width: 100%;
+  margin: 32px 0px 32px;
+}
+
+.space {
+  display: inline-block;
+  width: 100%;
+  height: 64px;
+}

@@ -1,0 +1,36 @@
+
+@import 'https://fonts.googleapis.com/css?family=Crete+Round|Lato';
+
+body {
+  background-color: #f3f3f3;
+  color: #444;
+  margin: 0px;
+  padding: 24px;
+}
+
+* { font-family: 'Lato', sans-serif; }
+h1, h2 { font-family: 'Crete Round', sans-serif; }
+
+h1 {
+  font-size: 48px;
+  margin: 24px 0px 6px;
+}
+
+h2 {
+  margin: 16px 0px 6px;
+  font-style: italic;
+}
+
+h3 {
+  margin: 6px 0px;
+  text-align: right;
+}
+
+p {
+  margin: 6px 0px;
+  font-size: 20px;
+}
+
+a {
+  color: #FF1744;
+}
