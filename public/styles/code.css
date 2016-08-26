@@ -1,11 +1,12 @@
 body {
   text-align: center;
+  padding: 4%;
 }
 
 center {
   display: inline-block;
   max-width: 1080px;
-  width: calc(100% - 64px);
+  width: calc(96%);
   text-align: left;
 }
 
