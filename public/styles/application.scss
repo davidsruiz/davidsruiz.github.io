@@ -1,14 +1,13 @@
 
 
 /* normalization */
-// html, body { width: 100%; height: 100%; }
-body * { font-size : inherit; letter-spacing: inherit } div { display: inline-block }
-
+div { display: inline-block }
 
 /* imports */
 @import 'colors';
 @import 'https://fonts.googleapis.com/css?family=Crete+Round';
 
+/* mixins */
 @mixin centerer {
   position: absolute;
   top: 50%;
@@ -16,7 +15,19 @@ body * { font-size : inherit; letter-spacing: inherit } div { display: inline-bl
   transform: translate(-50%, -50%);
 }
 
-body > .content { width: 100%; height: 100%; }
+/* colors */
+$dark: #222;
+$light: #ddd;
+
+
+/* page setup */
+html { width: 100%; height: 100%; font-size: 0; @media screen and (max-width: 768px) { height: 200%; } }
+body { width: 100%; height: 100%; margin: 0; overflow-y: scroll; background-color: $dark; }
+body * { font-size : inherit; letter-spacing: inherit }
+
+
+
+body > .content { width: 100%; height: 100%; font-size: 0}
 
 .l {
   width: 100%;
@@ -50,8 +61,8 @@ div#words {
     family: 'Crete Round', sans-serif;
   }
 
-  .a { color: #ddd; text-align: right; padding-right: 12px;}
-  .b { color: #333; text-align: left; padding-left: 12px;}
+  .a { color: $light; text-align: right; padding-right: 24px;}
+  .b { color: #333; text-align: left; padding-left: 24px;}
 
   .a, .b {
     box-sizing: border-box;
@@ -59,6 +70,8 @@ div#words {
 
     @media screen and (max-width: 768px) {
       text-align: center;
+      padding-left: 0px;
+      padding-right: 0px;
     }
   }
 
@@ -70,10 +83,36 @@ div#words {
     height: 308px;
   }
 
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: #222;
+    font-size: 18pt;
+
+    li {
+      display: inline-block;
+      padding: 12px 32px;
+      letter-spacing: 0.1em;
+    }
+
+    a { display: inline-block; vertical-align: middle }
+
+    img {
+      height: 48px;
+      padding: 4px;
+      transition: 0.4s;
+    }
+    img:hover {
+      height: 56px;
+      padding: 0px;
+    }
+  }
+
 }
 
 #name {
-  height: 290px;
+  // height: 290px;
   @media screen and (max-width: 768px) {height: auto;}
 }
 

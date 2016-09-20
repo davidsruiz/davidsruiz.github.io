@@ -1,8 +1,7 @@
 
 
-$(()=>{
+$(function(){
 
-  // nonsense
   HOME.canvas.init();
 
 });
@@ -103,7 +102,7 @@ $.extend(true, HOME, {
         renderer.render(scene, camera);
       }
 
-      $(window).resize(updateSize)
+      $(window).resize(function(){updateSize();resetBlendMode()})
 
       function updateSize() {
         winWidth = $(window).width(); winHeight = $(window).height();
@@ -124,6 +123,16 @@ $.extend(true, HOME, {
         camera.position.y = 480 - (480 * percent)
       }
 
+      function resetBlendMode() { // weird safari orientation change blend messup glitch thing
+        ($("#blend").css("mix-blend-mode") == "difference") ? $("#blend").css("mix-blend-mode", "exclusion") : $("#blend").css("mix-blend-mode", "difference") ;
+      }
+
     }
+  },
+  randomizeBackground() {
+    HOME.setBackgroundTo("hsl(" + Math.random()*360 + ", 100%, 67%)")
+  },
+  setBackgroundTo(color) {
+    $('#blend').css("background-color", color)
   }
 });
