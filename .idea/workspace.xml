@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="013261d7-8523-4340-b887-cd248bc75fac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/Portrait.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tiles/256 Tile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tiles/DS Tile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tiles/MF Tile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tiles/SDAH Tile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/styles/application.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/styles/colors.var.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/128/Email-Icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/128/Linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/128/Twitter-Icon-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/_colors.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/styles/application.min.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/application.css" afterPath="$PROJECT_DIR$/public/styles/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/application.scss" afterPath="$PROJECT_DIR$/public/styles/application.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,8 +22,77 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="54" column="55" lean-forward="false" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+              <caret line="72" column="55" lean-forward="false" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+              <caret line="90" column="55" lean-forward="false" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
+              <caret line="108" column="55" lean-forward="false" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/styles/application.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="286" column="34" lean-forward="false" selection-start-line="286" selection-start-column="34" selection-end-line="286" selection-end-column="34" />
+              <folding>
+                <element signature="e#491#577#0" expanded="false" />
+                <element signature="e#611#681#0" expanded="false" />
+                <element signature="e#688#811#0" expanded="false" />
+                <element signature="e#912#1579#0" expanded="false" />
+                <element signature="e#1065#1204#0" expanded="false" />
+                <element signature="e#1141#1200#0" expanded="false" />
+                <element signature="e#1216#1384#0" expanded="false" />
+                <element signature="e#1293#1380#0" expanded="false" />
+                <element signature="e#1394#1577#0" expanded="false" />
+                <element signature="e#1470#1573#0" expanded="false" />
+                <element signature="e#1608#1648#0" expanded="false" />
+                <element signature="e#1697#1832#0" expanded="false" />
+                <element signature="e#1849#1943#0" expanded="false" />
+                <element signature="e#1976#1982#0" expanded="false" />
+                <element signature="e#2006#2074#0" expanded="false" />
+                <element signature="e#2370#2475#0" expanded="false" />
+                <element signature="e#2510#2537#0" expanded="false" />
+                <element signature="e#2572#2622#0" expanded="false" />
+                <element signature="e#2710#2818#0" expanded="false" />
+                <element signature="e#2908#3118#0" expanded="false" />
+                <element signature="e#3163#3213#0" expanded="false" />
+                <element signature="e#3252#3407#0" expanded="false" />
+                <element signature="e#3445#3466#0" expanded="false" />
+                <element signature="e#3526#3587#0" expanded="false" />
+                <element signature="e#3609#3656#0" expanded="false" />
+                <element signature="e#3763#3787#0" expanded="false" />
+                <element signature="e#3806#3835#0" expanded="false" />
+                <element signature="e#3861#3890#0" expanded="false" />
+                <element signature="e#3927#4031#0" expanded="false" />
+                <element signature="e#4067#4089#0" expanded="false" />
+                <element signature="e#4126#4150#0" expanded="false" />
+                <element signature="e#4188#4242#0" expanded="false" />
+                <element signature="e#4280#4343#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public/styles/application.scss" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -75,6 +134,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="davidsruiz.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="davidsruiz.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="davidsruiz.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="davidsruiz.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -88,6 +179,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -154,33 +246,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508741176699</updated>
-      <workItem from="1508741178485" duration="27000" />
+      <workItem from="1508741178485" duration="651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27000" />
+    <option name="totallyTimeSpent" value="651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,5 +284,60 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="54" column="55" lean-forward="false" selection-start-line="54" selection-start-column="55" selection-end-line="54" selection-end-column="55" />
+          <caret line="72" column="55" lean-forward="false" selection-start-line="72" selection-start-column="55" selection-end-line="72" selection-end-column="55" />
+          <caret line="90" column="55" lean-forward="false" selection-start-line="90" selection-start-column="55" selection-end-line="90" selection-end-column="55" />
+          <caret line="108" column="55" lean-forward="false" selection-start-line="108" selection-start-column="55" selection-end-line="108" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="286" column="34" lean-forward="false" selection-start-line="286" selection-start-column="34" selection-end-line="286" selection-end-column="34" />
+          <folding>
+            <element signature="e#491#577#0" expanded="false" />
+            <element signature="e#611#681#0" expanded="false" />
+            <element signature="e#688#811#0" expanded="false" />
+            <element signature="e#912#1579#0" expanded="false" />
+            <element signature="e#1065#1204#0" expanded="false" />
+            <element signature="e#1141#1200#0" expanded="false" />
+            <element signature="e#1216#1384#0" expanded="false" />
+            <element signature="e#1293#1380#0" expanded="false" />
+            <element signature="e#1394#1577#0" expanded="false" />
+            <element signature="e#1470#1573#0" expanded="false" />
+            <element signature="e#1608#1648#0" expanded="false" />
+            <element signature="e#1697#1832#0" expanded="false" />
+            <element signature="e#1849#1943#0" expanded="false" />
+            <element signature="e#1976#1982#0" expanded="false" />
+            <element signature="e#2006#2074#0" expanded="false" />
+            <element signature="e#2370#2475#0" expanded="false" />
+            <element signature="e#2510#2537#0" expanded="false" />
+            <element signature="e#2572#2622#0" expanded="false" />
+            <element signature="e#2710#2818#0" expanded="false" />
+            <element signature="e#2908#3118#0" expanded="false" />
+            <element signature="e#3163#3213#0" expanded="false" />
+            <element signature="e#3252#3407#0" expanded="false" />
+            <element signature="e#3445#3466#0" expanded="false" />
+            <element signature="e#3526#3587#0" expanded="false" />
+            <element signature="e#3609#3656#0" expanded="false" />
+            <element signature="e#3763#3787#0" expanded="false" />
+            <element signature="e#3806#3835#0" expanded="false" />
+            <element signature="e#3861#3890#0" expanded="false" />
+            <element signature="e#3927#4031#0" expanded="false" />
+            <element signature="e#4067#4089#0" expanded="false" />
+            <element signature="e#4126#4150#0" expanded="false" />
+            <element signature="e#4188#4242#0" expanded="false" />
+            <element signature="e#4280#4343#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
