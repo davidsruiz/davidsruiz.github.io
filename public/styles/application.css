@@ -76,11 +76,13 @@ header {
   margin-bottom: 48px;
   font-family: "Roboto", sans-serif; }
 
-.code-section-project-image {
-  width: 128px;
-  height: 128px;
+.code-section-project-image-link {
   margin: 0 32px 2px 0;
   float: left; }
+
+.code-section-project-image {
+  width: 128px;
+  height: 128px; }
 
 .code-section-project-title-bar {
   width: calc(100% - (128px + 32px));
@@ -137,7 +139,7 @@ header {
   .code-section-project {
     text-align: center; }
 
-  .code-section-project-image {
+  .code-section-project-image-link {
     margin-right: 0;
     margin-bottom: 32px;
     float: none; }

@@ -161,15 +161,20 @@ header {
 
 $code-section-project-tile-image-padding: 32px;
 
-.code-section-project-image {
+.code-section-project-image-link {
 
-  width: 128px;
-  height: 128px;
   margin: 0
           $code-section-project-tile-image-padding
           2px
           0;
   float: left;
+
+}
+
+.code-section-project-image {
+
+  width: 128px;
+  height: 128px;
 
 }
 
@@ -279,7 +284,7 @@ $code-section-project-action-button-box-width: 80px;
     text-align: center;
   }
 
-  .code-section-project-image {
+  .code-section-project-image-link {
     margin-right: 0;
     margin-bottom: $code-section-project-tile-image-padding;
     float: none;
