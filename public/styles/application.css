@@ -1,0 +1,158 @@
+/* imports */
+@import url(colors.var.css);
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400|Roboto:400,400i,700");
+/* vars */
+/* normalization */
+div {
+  display: inline-block; }
+
+/* mixins */
+/* Top -> Down */
+html, body {
+  width: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  color: var(--md-grey-700);
+  background-color: var(--md-grey-200);
+  text-align: center; }
+
+body * {
+  display: inline-block;
+  font-size: inherit;
+  letter-spacing: inherit; }
+
+header {
+  display: inline-block;
+  width: 100%;
+  color: var(--md-grey-200);
+  background-color: var(--md-grey-900);
+  font-family: "Montserrat", sans-serif; }
+  header > .title {
+    width: 100%;
+    padding: 40px 0;
+    text-align: center; }
+    header > .title span {
+      font-size: 36px;
+      letter-spacing: 7px; }
+  header > .poem {
+    width: 100%;
+    text-align: center; }
+    header > .poem span {
+      font-weight: lighter;
+      font-size: 24px;
+      letter-spacing: 1px; }
+  header > nav {
+    width: 100%;
+    padding: 36px 0;
+    text-align: center; }
+    header > nav span {
+      margin: 0 16px;
+      padding: 6px;
+      font-weight: lighter;
+      font-size: 32px; }
+
+.page-section {
+  width: 100%;
+  text-align: left; }
+
+#code-section, #design-section, #about-section {
+  max-width: 900px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 50px; }
+
+.section-title {
+  width: 100%;
+  padding: 42px 0 32px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 64px; }
+
+.code-section-project {
+  width: 100%;
+  margin-bottom: 48px;
+  font-family: "Roboto", sans-serif; }
+
+.code-section-project-image {
+  width: 128px;
+  height: 128px;
+  margin: 0 32px 2px 0;
+  float: left; }
+
+.code-section-project-title-bar {
+  width: calc(100% - (128px + 32px));
+  margin-bottom: 24px; }
+
+.code-section-project-title-text {
+  font: 36px "Roboto", sans-serif; }
+
+.code-section-project-title-info {
+  float: right;
+  font: italic 18px "Roboto", sans-serif; }
+
+.code-section-project-description {
+  display: inline;
+  margin-bottom: 32px;
+  font: 18px "Roboto", sans-serif; }
+
+.code-section-project-techdetails {
+  width: calc(100% - 80px);
+  margin-top: 32px;
+  padding-right: 32px;
+  box-sizing: border-box;
+  font: bold 18px "Roboto", sans-serif; }
+
+.code-section-project-techdetails > .title {
+  font-style: italic;
+  font-weight: normal; }
+
+.code-section-project-action-buttons {
+  width: 80px;
+  margin-top: 32px;
+  float: right;
+  text-align: right; }
+
+.code-section-project-action-button {
+  padding: 4px; }
+
+.about-section-image {
+  width: 200px;
+  margin: 0 0 4px 32px;
+  float: right; }
+
+.about-section-desc {
+  display: inline;
+  font: 18px "Roboto", sans-serif; }
+
+@media screen and (max-width: 900px) {
+  #code-section, #design-section, #about-section {
+    padding: 0 6%; }
+
+  .section-title {
+    text-align: center; }
+
+  .code-section-project {
+    text-align: center; }
+
+  .code-section-project-image {
+    margin-right: 0;
+    margin-bottom: 32px;
+    float: none; }
+
+  .code-section-project-title-bar {
+    width: 100%; }
+
+  .code-section-project-title-info {
+    display: none; }
+
+  .code-section-project-description {
+    display: inline-block;
+    text-align: left; }
+
+  .code-section-project-techdetails {
+    width: 100%;
+    margin-top: 0;
+    text-align: left; } }
