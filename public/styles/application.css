@@ -25,15 +25,18 @@ body * {
   letter-spacing: inherit; }
 
 header {
-  display: inline-block;
+  display: flex;
   width: 100%;
   color: var(--md-grey-200);
   background-color: var(--md-grey-900);
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 42px; }
   header > .title {
+    display: inline-block;
     width: 100%;
-    padding: 40px 0;
-    text-align: center; }
+    padding: 40px;
+    text-align: center;
+    box-sizing: border-box; }
     header > .title span {
       font-size: 36px;
       letter-spacing: 7px; }
@@ -45,9 +48,11 @@ header {
       font-size: 24px;
       letter-spacing: 1px; }
   header > nav {
-    width: 100%;
-    padding: 36px 0;
-    text-align: center; }
+    display: inline-block;
+    width: 50%;
+    padding: 40px;
+    text-align: right;
+    box-sizing: border-box; }
     header > nav span {
       margin: 0 16px;
       padding: 6px;
@@ -56,7 +61,8 @@ header {
 
 .page-section {
   width: 100%;
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 42px; }
 
 #code-section, #design-section, #about-section {
   max-width: 900px;
@@ -67,7 +73,7 @@ header {
 
 .section-title {
   width: 100%;
-  padding: 42px 0 32px 0;
+  margin-bottom: 32px;
   font-family: "Montserrat", sans-serif;
   font-size: 64px; }
 
